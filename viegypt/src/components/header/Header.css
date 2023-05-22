@@ -11,16 +11,22 @@
     flex-wrap: nowrap !important;
     justify-content: space-around;
     align-items: center;
-    padding: 10px 30px !important;
+    padding: 10px 15px !important;
     background: rgba(35, 35, 35, 0.6);
 }
 
 .bars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     display: none;
     width: 100px;
     font-size: 20px;
+    text-align: left;
 }
-
+.navbar-left img { 
+    width: 120px;
+}
 .navbar-center .nav-link {
     display: flex;
     flex-direction: row;
@@ -91,7 +97,9 @@
     .navbar {
         background: #fff;
     }
-
+    .navbar-left img { 
+        width: 60px;
+    }
     .navbar-center {
         display: none;
     }
@@ -102,6 +110,10 @@
 
     .bars {
         display: block;
+    }
+    .navbar-right ul li .icons {
+        width: 30px;
+        height: 30px;
     }
 }
 

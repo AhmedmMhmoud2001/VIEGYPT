@@ -93,7 +93,7 @@ const Header = () => {
                     <FontAwesomeIcon icon={faBars} />
                 </div>
                 <div className='navbar-left'>
-                    <img src="https://viegypt.com/wp-content/uploads/2022/04/LOGO-5-1.png" width={"100px"} alt="viegypt" />
+                    <img src="https://viegypt.com/wp-content/uploads/2022/04/LOGO-5-1.png" alt="viegypt" />
                 </div>
                 <div className='navbar-center'>
                     <ul className='nav-link'>
