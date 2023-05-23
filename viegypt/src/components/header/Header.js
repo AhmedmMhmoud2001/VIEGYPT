@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import './Header.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCartShopping, faUser, faAngleLeft, faBars } from '@fortawesome/free-solid-svg-icons'
+import { faCartShopping, faUser, faAngleLeft, faBars, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faInstagram ,faTwitter ,faFacebook, faYoutube} from '@fortawesome/free-brands-svg-icons'
 import Dropdown from 'react-bootstrap/Dropdown';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     //     const [isHovered1, setIsHovered1] = useState(false);
@@ -88,6 +90,48 @@ const Header = () => {
 
     return (
         <div className='header'>
+            <div className='topbar'>
+                <div>
+                   <ul className='topbar-left'>
+                        <li>
+                            <Link to="/">
+                               <FontAwesomeIcon icon={faPhone} />
+                               (000) 999 -656 -888
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/">
+                               <FontAwesomeIcon icon={faEnvelope} />
+                               travelerwp@gmail.com
+                            </Link>
+                        </li>
+                   </ul>
+                </div>
+                <div>
+                   <ul>
+                        <li>
+                            <Link to="/">
+                               <FontAwesomeIcon icon={faFacebook} />
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/">
+                               <FontAwesomeIcon icon={faTwitter} />
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/">
+                               <FontAwesomeIcon icon={faInstagram } />
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/">
+                               <FontAwesomeIcon icon={faYoutube} />
+                            </Link>
+                        </li>
+                   </ul>
+                </div>
+            </div>
             <div className='navbar'>
                 <div className='bars' onClick={toggleSidebar}>
                     <FontAwesomeIcon icon={faBars} />

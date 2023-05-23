@@ -1,0 +1,76 @@
+/* ========================= */
+.Subscribe {
+    margin: 100px 0px;
+}
+.Subscribe .container .row  {
+    background: #F7F8FA;
+    border-radius: 20px;
+    border: 1px solid #e2e2e2;
+}
+.Subscribe .container .row .col-lg-6.col-md-6.col-12 {
+    padding: 0px;
+}
+
+.Subscribe .container .row .col-lg-6.col-md-6.col-12 img{
+    border-radius: 20px 0px 0px 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.Subscribe-info {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.Subscribe-info div{
+    margin: 10%;
+    text-align: center;
+}
+.Subscribe-info div h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.Subscribe-info div p{
+    font-size: 20px;
+    font-weight: 700;
+    opacity: .5;
+}
+
+.Subscribe-info form {
+    background: #fff;
+    width: 100%;
+    height: 60px;
+    padding: 5px;
+    border-radius: 100px;
+    border: 1px solid #e7e6e6;
+}
+.Subscribe-info form input {
+    height: 45px;
+    border: none;
+    outline: none;
+}
+.Subscribe-email{
+    width: 70%;
+    border-radius: 100px;
+    padding-left: 25px;
+}
+.Subscribe-submit {
+    width: 30%;
+    background: blue;
+    color: #fff;
+    border-radius: 100px;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .Subscribe .container .row .col-lg-6.col-md-6.col-12 img{
+        border-radius: 20px 20px 0px 0px;
+        height: 100%;
+        width: 100%;
+    }
+}
