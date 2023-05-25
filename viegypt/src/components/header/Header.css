@@ -1,5 +1,7 @@
 .header {
-    position: relative;
+    /* position: relative; */
+    position: absolute;
+    width: 100%;
 }
 
 .topbar {
@@ -11,6 +13,7 @@
     background: #232323;
     padding-top: 15px;
     padding-bottom: 0px;
+    height: 35px;
 }
 .topbar ul {
     display: flex;
@@ -41,10 +44,14 @@
     .topbar{
         display: none;
     }
+    .header {
+        position: relative;
+    }
 }
 
 /* ================================================ */
 .navbar {
+    
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap !important;

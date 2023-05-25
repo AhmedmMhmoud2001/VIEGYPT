@@ -356,7 +356,7 @@ const Header = () => {
                         </Dropdown>
                     </li>
                 </ul>
-            </div>
+            </div> 
         </div>
     );
 }
