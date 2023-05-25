@@ -1,0 +1,124 @@
+.sectionbooking-booking {
+    background: #F7F8FA;
+    border: 1px solid #e7e6e6;
+    border-radius: 100px;
+    height: 80px;
+    width: 900px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+
+.sectionbooking-Location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectionbooking-Location div:first-of-type {
+    font-size: 18px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.sectionbooking-Location div:nth-of-type(2) div:nth-of-type(2) {
+    opacity: .5;
+    margin-left: 10px;
+    font-size: 14px;
+
+}
+.sectionbooking-time {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.RightLong {
+    margin: 20px;
+}
+.sectionbooking-search {
+    background: #00f;
+    height: 60px;
+    width: 150px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+.sectionbooking-search input {
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500;
+}
+@media only screen and (max-width: 900px) {
+    .sectionbooking-booking {
+        background: #F7F8FA;
+        border: 1px solid #e7e6e6;
+        border-radius: 100px;
+        height: 80px;
+        width: 800px;
+        margin: 40px auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    
+    }
+}
+@media only screen and (max-width: 700px) {
+    .sectionbooking-booking {
+       display: none;
+    
+    }
+}
+
+/* ======================================== */
+.SectionbookingSM {
+    margin:10px; 
+    border: 1px solid #eeeded;
+    border-radius: 10px;
+
+}
+.SectionbookingSM .SectionbookingSMdiv {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    border-bottom: 1px solid #eeeded;
+}
+.sectionbooking-searchSM{
+    background: #00f;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    border-radius: 0px 0px 10px 10px ;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+}
+.sectionbooking-searchSM input {
+    border: none;
+    background: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+}
+@media only screen and (min-width: 700px) {
+    .SectionbookingSM{
+       display: none;
+    }
+}

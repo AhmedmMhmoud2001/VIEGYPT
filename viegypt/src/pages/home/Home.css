@@ -1,4 +1,189 @@
+.banner{
+    background-image: url(https://viegypt.com/wp-content/uploads/2023/05/home-07.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    height: 530px;
+    /* width: 100%; */
+}
+.banner .banner-info p:first-of-type {
+    margin-top: 50px;
+    font-size: 68px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+}
+.banner .banner-info p:nth-of-type(2){
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+}
+@media only screen and (max-width: 900px) {
+    .banner .banner-info p:first-of-type {
+        font-size: 40px;
+        
+    }
+    .banner{
+        height: 400px;
+    }
+    
+}
+/* ================================ */
+.sectionbooking {
+    position: absolute;
+    bottom: 38px;
+    width: 100%;
+}
+.linkes-Banner{
+    width: 600px;
+    margin: auto;
+}
+.linkes-Banner ul{
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+}
+.linkes-Banner ul li {
+    list-style-type: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .sectionbooking {
+        position: absolute;
+        bottom: 140px;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .sectionbooking {
+        bottom:200px;
+    }
+    .linkes-Banner{
+        width: 400px;
+        margin: auto;
+    }
+}
+/* ===================================== */
+.elementor-widget-container {
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.elementor-widget-container img {
+    width: 100%;
+    height: 100%;
+    transition: all ease .3s;
+    border-radius: 10px;
+    padding: 0px;
+}
+.elementor-widget-container img:hover{
+    transform: scale(1.1);
+}
+
 /* ========================= */
+.top-destinations .title {
+  text-align: center;
+  margin: 20px;
+  font-size: 45px;
+  font-weight: 700;
+}
+.top-destinations-item a  {
+    position: relative;
+    overflow: hidden;
+}
+.top-destinations-item a .card-img  {
+    width: 100%;
+    height: 100%;
+}
+.top-destinations-item a div img {
+   width: 100%;
+   height: 100%;
+   border-radius: 10px;
+   padding: 0px;
+   overflow: hidden;
+}
+.title-img {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+}
+.card-info {
+    position: absolute;
+    bottom:0;
+    color:#fff;
+    font-size: 20px;
+    background: #000;
+    width: 100%;
+    height: 0%;
+    border-radius: 10px;
+    visibility: hidden;
+    transition: all ease .2s;
+}
+.top-destinations-item a .card-img:hover +.card-info{
+    visibility: inherit;
+    bottom: 0;
+    height: 100%;
+}
+.card-info:hover{
+    visibility: inherit;
+    bottom: 0;
+    height: 100%;
+}
+.container .row h3 {
+     margin: 20px;
+     font-size: 35px;
+}
+.container .row p {
+    margin: 10px 30px 10px;
+}
+
+/* ======================== */
+
+.Recommended {
+    background: #f5f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     text-align: center;
+     margin-top: 50px;
+
+}
+.RecommendedLink {
+    margin: 60px 0px;
+}
+
+.RecommendedLink button {
+    margin: 10px;
+    padding: 5px 15px;
+    border: 1px solid #dbd8d8;
+    border-radius: 5px;
+    background: #fff;
+
+}
+
+
+/* ========================= */
+.Storiestipsandguides{
+    margin: 70px 0px;
+}
+.Storiestipsandguides h2 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.react-multi-carousel-item  ,.react-multi-carousel-item.react-multi-carousel-item--active  {
+    margin: 0;
+    padding: 0;
+    margin: 15px;
+}
+/* ========================== */
 .Subscribe {
     margin: 100px 0px;
 }
